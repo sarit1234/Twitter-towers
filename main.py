@@ -75,7 +75,7 @@ def triangular_tower():
         print_triangle(height, width)
 
 
-def print_hi(name):
+def main():
     while True:
         choose = int(input("Choose 1 for a rectangle tower, choose 2 for a triangular tower, choose 3 for an exit\n"))
         if choose == 1:
@@ -88,4 +88,4 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    main()
